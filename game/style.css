@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    /* border: 2px solid red; */
+    
+    
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: hsl(193, 86%, 30%);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+#game-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#result-info {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
